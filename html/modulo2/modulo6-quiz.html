@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
+    />
+    <title>Módulo 6: Quiz | CVA - Centro Virtual de Aprendizaje</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
+
+    <!-- plugins css -->
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css"
+    />
+
+    <!-- page plugins css -->
+
+    <!-- core css -->
+    <link href="../../assets/css/ei-icon.css" rel="stylesheet" />
+    <link href="../../assets/css/themify-icons.css" rel="stylesheet" />
+    <link href="../../assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../../assets/css/animate.min.css" rel="stylesheet" />
+    <link href="../../assets/css/app.css" rel="stylesheet" />
+    <link href="../../assets/css/progress.css" rel="stylesheet" />
+    <link href="../../assets/css/progress-circle.css" rel="stylesheet" />
+    <style>
+      .card > select,
+      label {
+        margin: 0.8em auto;
+        width: 70%;
+      }
+      .card {
+        padding-bottom: 1em;
+      }
+      .alertWrong,
+      .alertCorrect {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body class="header-info side-nav-dark">
+    <div class="app">
+      <div class="layout">
+        <!-- Side Nav START -->
+        <div class="side-nav" id="sideNav"></div>
+        <!-- Side Nav END -->
+
+        <!-- Page Container START -->
+        <div class="page-container">
+          <!-- Header START -->
+          <div class="header navbar"></div>
+          <!-- Header END -->
+
+          <!-- Content Wrapper START -->
+          <div class="main-content">
+            <div class="container-fluid px-0 px-sm-3">
+              <!-- Your content goes here -->
+              <div class="card">
+                <div class="card-horizon">
+                  <div class="container-fluid p-3">
+                    <h1 class="m-4 mrg-btm-20 card-title">
+                      Ejercicio 6 - Límites de su esfuerzo
+                    </h1>
+
+                    <p class="card-info">
+                      <label style="min-width: 100%"
+                        ><i class="icon ti-mouse-alt"></i>Haz clic sobre la
+                        opción
+                        <select>
+                          <option
+                            value="none"
+                            selected
+                            disabled
+                            hidden
+                          ></option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                        </select>
+                        correcta, que representa el orden del paso.</label
+                      >
+                    </p>
+
+                    <div class="container-fluid">
+                      <div
+                        class="pdd-horizon-5 pdd-vertical-20"
+                        style="margin-bottom: 10px"
+                      >
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <div class="card">
+                              <div
+                                style="
+                                  background-image: url('../../assets/images/course/modulo6/pulso/pagina2_3.jpg');
+                                  background-size: cover;
+                                  background-position: center;
+                                  background-repeat: no-repeat;
+                                  height: 13.2rem;
+                                  margin-bottom: 0.5rem;
+                                "
+                              ></div>
+                              <p class="text-center">
+                                <b> Contar pulsaciones</b>
+                              </p>
+                              <label for="Q1">Elija el orden del paso:</label>
+                              <select id="Q1" name="Q1">
+                                <option value="none" selected disabled hidden>
+                                  Selecciona
+                                </option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                              </select>
+                              <br /><b
+                                class="alertWrong"
+                                style="display: none; color: red"
+                              >
+                                Incorrecto
+                              </b>
+                              <b
+                                class="alertCorrect"
+                                style="display: none; color: green"
+                              >
+                                ¡Correcto!
+                              </b>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="card">
+                              <div
+                                style="
+                                  background-image: url('../../assets/images/course/modulo6/pulso/shutterstock_1640571208.jpg');
+                                  background-size: cover;
+                                  background-repeat: no-repeat;
+                                  background-position: center;
+                                  height: 13.2rem;
+                                  margin-bottom: 0.5rem;
+                                "
+                              ></div>
+                              <p class="text-center">
+                                <b> Presionar suavemente</b>
+                              </p>
+                              <label for="Q1">Elija el orden del paso:</label>
+                              <select id="Q2" name="Q2">
+                                <option value="none" selected disabled hidden>
+                                  Selecciona
+                                </option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                              </select>
+                              <br /><b
+                                class="alertWrong"
+                                style="display: none; color: red"
+                              >
+                                Incorrecto
+                              </b>
+                              <b
+                                class="alertCorrect"
+                                style="display: none; color: green"
+                              >
+                                ¡Correcto!
+                              </b>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="card">
+                              <div
+                                style="
+                                  background-image: url(../../assets/images/course/modulo6/pulso/pagina2_1.jpg);
+                                  background-size: cover;
+                                  background-position: center;
+                                  background-repeat: no-repeat;
+                                  height: 13.2rem;
+                                  margin-bottom: 0.5rem;
+                                "
+                              ></div>
+                              <p class="text-center">
+                                <b>Colocar dedos</b>
+                              </p>
+                              <label for="Q1">Elija el orden del paso:</label>
+                              <select id="Q3" name="Q3">
+                                <option value="none" selected disabled hidden>
+                                  Selecciona
+                                </option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                              </select>
+                              <br /><b
+                                class="alertWrong"
+                                style="display: none; color: red"
+                              >
+                                Incorrecto
+                              </b>
+                              <b
+                                class="alertCorrect"
+                                style="display: none; color: green"
+                              >
+                                ¡Correcto!
+                              </b>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <!-- DIV STICKY SCORECARD -->
+                      <div
+                        class="card d-flex sticky-score p-2 mrg-top-10 mrg-horizon-15"
+                      >
+                        <div class="submitbutton">
+                          <button
+                            type="button"
+                            class="button"
+                            onclick="checkAll()"
+                          >
+                            Revisar
+                          </button>
+                        </div>
+                        <div class="score">
+                          <span></span>
+                        </div>
+                        <div class="msg">
+                          <span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Botones de avance entre páginas-->
+              <div class="row mrg-btm-20">
+                <div class="col text-center">
+                  <div class="btn-group"></div>
+                </div>
+              </div>
+
+              <!--Widgets de avance de módulo y general-->
+              <div class="card widget-feed">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h1 class="feed-title tag tag-info">Módulo 6</h1>
+                    <h3 class="feed-subtitle">Tu Progreso</h3>
+                    <div class="progress" style="height: 20px" id="bar">
+                      <div
+                        class="progress-bar bg-info"
+                        role="progressbar"
+                        aria-valuenow="71"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="max-width: 71%"
+                      >
+                        71%
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="row">
+                      <div class="col">
+                        <div id="circlecontainer"></div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col text-center">
+                        <h3 class="feed-subtitle">
+                          Progreso General del Curso
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Content Wrapper END -->
+
+          <!-- Footer START -->
+          <footer class="content-footer"></footer>
+          <!-- Footer END -->
+        </div>
+        <!-- Page Container END -->
+      </div>
+    </div>
+
+    <!-- build:js assets/js/vendor.js -->
+    <!-- plugins js -->
+    <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../assets/vendors/PACE/pace.min.js"></script>
+    <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+
+    <!-- Progress plugins -->
+    <script src="../../assets/js/progressbar.js"></script>
+    <script src="../../assets/js/progress-circle.js"></script>
+
+    <!-- endbuild -->
+
+    <!-- build:js assets/js/app.min.js -->
+    <!-- core js -->
+    <script src="../../assets/js/app.js"></script>
+    <script src="../../assets/js/recycled/navigationbar.js"></script>
+    <script src="../../assets/js/progress/url-script.js"></script>
+
+    <!-- endbuild -->
+
+    <!-- Insert your dependencies here -->
+    <script>
+      //radio input "Correct" Class
+      function checkAll() {
+        var correct = 0;
+        var count = 0;
+        Q1 = document.getElementById("Q1").value;
+        Q2 = document.getElementById("Q2").value;
+        Q3 = document.getElementById("Q3").value;
+        function showCheck(Q, q) {
+          console.log(Q);
+          var Qn = $("#" + Q + "");
+          Qn = Qn.parent();
+          console.log(Qn);
+          Qn.find(".alertCorrect").css("display", "none");
+          Qn.find(".alertWrong").css("display", "none");
+          Qn.removeClass("correct");
+          Qn.removeClass("incorrect");
+          if (q == true) {
+            Qn.find(".alertCorrect").css("display", "block");
+            Qn.addClass("correct");
+          } else {
+            Qn.find(".alertWrong").css("display", "block");
+            Qn.addClass("incorrect");
+          }
+        }
+        q1 = false;
+        q2 = false;
+        q3 = false;
+        count = 3;
+        if (Q1 == "3") {
+          correct++;
+          q1 = true;
+        }
+        if (Q2 == "2") {
+          correct++;
+          q2 = true;
+        }
+        if (Q3 == "1") {
+          correct++;
+          q3 = true;
+        }
+        showCheck("Q1", q1);
+        showCheck("Q2", q2);
+        showCheck("Q3", q3);
+
+        $(".score > span").html(
+          "Resultado: " + parseInt((correct * 100) / count) + "/100"
+        );
+        if (parseInt((correct * 100) / count) >= 90) {
+          $(".msg > span").html("¡Excelente!");
+          $(".msg > span").css("color", "green");
+        } else if (parseInt((correct * 100) / count) <= 30) {
+          $(".msg > span").html(
+            "Te invitamos a regresar al contenido para tu aprendizaje."
+          );
+        }
+      }
+    </script>
+  </body>
+</html>

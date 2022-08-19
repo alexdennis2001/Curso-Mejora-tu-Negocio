@@ -1,0 +1,59 @@
+.box-page{
+    border: solid 3px  var(--theme-color) !important;
+    border-radius: 30px;
+    width: 100% !important;
+    height: 70% !important;
+    padding: 2% 0;
+    text-align: center;
+    transition: all .3s ease-out;
+    position: relative;
+  }
+  .box-page p{
+    font-size: calc(30% + .5vw + 1vh) !important;
+  }
+  .box-page .hide{
+    font-size: calc(30% + .5vw + 1vh) !important;
+    margin-top: calc(-15px - .5vh) !important;
+    opacity: 0;
+    color: white !important;
+    transition: all .3s ease-out;
+  }
+  .box-page:hover p{
+    color: white;
+  }
+  .box-page:hover{
+    background-color:  var(--theme-color);
+    transition: all .3s ease-in;
+    transform: scale(1.05);
+    cursor: pointer;
+    border: none;
+  }
+  .box-page:hover .hide{
+    opacity: 1;
+    transition: all .3s ease-in;
+  }
+  .box-page:hover .sound{
+    opacity: 1;
+    transition: all .3s ease-in;
+  }
+  .box-page:hover .soundFrases{
+    opacity: 1;
+    transition: all .3s ease-in;
+  }
+
+  .frases{
+    background-color: #23806f;
+  }
+  .frases p{
+    color: white;
+  }
+
+  .soundFrases{
+    opacity: 0;
+    filter:  brightness(0) invert(1);
+    top: calc(15% + 1vh);
+    left: calc(1% + .1vw);
+    position: absolute;
+    height: auto;
+    width: calc(5% + .75vw + 1vh) !important;
+  }

@@ -1,0 +1,164 @@
+/* .vocabulary-card .card-body{
+    width: 15rem;
+    height: 8rem;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border: 1px solid gray;
+} */
+.vocabulary-cards-container .nav-item {
+    border: 0.5px solid var(--theme-color); 
+    border-radius: 0.5rem;
+}
+
+.pill-success .nav-pills > li > a.active.nav-link {
+    border: .75px solid var(--theme-color);
+    background: var(--theme-color);
+}
+
+svg.fa-play-circle {
+    fill: var(--accent-color);
+    width: 5.5rem;
+    height: 5.5rem;
+    transition: .5s ease;
+}
+
+.vocabulary-section-title {
+    color: black;
+}
+
+.vocabulary-card {
+    /* width: 13rem; */
+    height: 11.5rem;
+    border-width: 0.2rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.vocabulary-card a {
+    text-align: center;
+}
+
+.vocabulary-card .svg-wrapper {
+    width: auto;
+    margin: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.vocabulary-card .card-body {
+    padding: 0;
+    text-align: center;
+}
+
+.vocabulary-card .card-body .card-title {
+    color: black;
+    font-weight: bold;
+    font-size: 17.5px;
+    line-height: 1.2rem;
+    margin: 0.25rem;
+    transition: .5s ease;
+}
+
+.vocabulary-card .card-body .card-subtitle {
+    color: gray;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 1.2rem;
+}
+
+.vocabulary-card:hover {
+    cursor: pointer;
+    border-color: #55a2fe;
+}
+
+.vocabulary-card:hover svg {
+    fill: #55a2fe;
+}
+
+.vocabulary-card:hover .card-title {
+    transition: .5s ease;
+    color: #55a2fe;
+}
+
+.columna {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    /* flex-grow: 1; */
+    max-width: 100%;
+    padding-right: 2%;
+}
+
+/* .vocabulary-card:hover .card-subtitle {
+    transition: .5s ease;
+    color: #1C84FF;
+} */
+
+/* .card:hover svg {
+    width: 5.5rem;
+    height: 5.5rem;
+} */
+
+/* .vocabulary-card {
+    width: 15em;
+    height: 10em;
+    margin: 0 auto;
+    margin-bottom: 6em;
+}
+.vocabulary-card a {
+    text-align: center;
+}
+.vocabulary-card img {
+    max-width: auto;
+    height: 10em;
+}
+.vocabulary-card .card-body {
+    margin: 0 auto;
+    padding: 0;
+}
+.vocabulary-card:hover {
+    cursor: pointer;
+}
+.vocabulary-card:hover .card-title {
+    transition: .5s ease;
+    color: #1C84FF;
+}
+.vocabulary-card:hover .card-subtitle {
+    transition: .5s ease;
+    color: #1C84FF;
+}
+.vocabulary-card .card-title {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+.vocabulary-card .card-subtitle {
+    font-size: 1em;
+    color: grey;
+    font-weight: lighter;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;	
+    left: 0;
+    right: 0;
+    height: 10em;
+    max-width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1C84FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.vocabulary-card:hover .overlay {
+    opacity: 0.9;
+}
+.play-icon {
+    width: 6em;
+    height: 6em;
+} */
