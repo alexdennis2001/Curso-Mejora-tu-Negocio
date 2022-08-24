@@ -218,6 +218,11 @@ function getFiles() {
       1: "modulo1-1.html",
       2: "modulo1-2.html",
       3: "modulo1-3.html",
+    },
+    modulo1t: {
+      1: "modulo1-1.html",
+      2: "modulo1-2.html",
+      3: "modulo1-3.html",
       4: "modulo1-4.html",
       5: "modulo1-6.html",
       6: "modulo1-7.html",
@@ -235,7 +240,7 @@ function getFiles() {
       // 17: "modulo1-17.html",
       // 18: "modulo1-18.html",
     },
-    modulo2: {
+    modulo2t: {
       1: "modulo2-1.html",
       2: "modulo2-2.html",
       3: "modulo2-3.html",
@@ -247,7 +252,7 @@ function getFiles() {
       9: "modulo2-9.html",
       10: "modulo2-10.html",
     },
-    modulo3: {
+    modulo3t: {
       1: "modulo3-1.html",
       2: "modulo3-2.html",
       3: "modulo3-3.html",
