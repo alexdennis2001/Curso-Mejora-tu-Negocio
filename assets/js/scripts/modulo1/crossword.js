@@ -382,7 +382,7 @@ function BoardToHtml(blank){
   boardMap = [];
   
   for(var i=Bounds.top-1, str=""; i<Bounds.bottom+2; i++){
-    str+="<div class='row'>";
+    str+="<div class='rows'>";
     for(var j=Bounds.left-1; j<Bounds.right+2; j++){
       str += BoardCharToElement(board[j][i]);
     }

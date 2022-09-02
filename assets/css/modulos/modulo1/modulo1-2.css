@@ -113,4 +113,18 @@
     .right-2 {
     left: 0%;
     }
-    }
+}
+
+.button-enabled{
+    background-color: #FF8300;
+}
+
+.button-enabled:hover{
+    background-color: #ffa500;
+
+}
+
+.button-disabled{
+    background-color: #FF9F45;
+}
+
