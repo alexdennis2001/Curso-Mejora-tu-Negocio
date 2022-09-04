@@ -128,3 +128,9 @@
     background-color: #FF9F45;
 }
 
+.image-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

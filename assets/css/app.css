@@ -11448,7 +11448,7 @@ glyphs.character-mapping {
   position: relative;
   width: 100%;
   height: 500px;
-  background-image: url("../images/course/modulo1/m1-4/mapa.png");
+  background-image: url("../images/course/modulo1/m1-3/mapa.png");
   background-position: center;
   /* Center the image */
   background-repeat: no-repeat;
@@ -11604,7 +11604,7 @@ ol {
 .nav-pills .nav-item a {
   border-style: dashed;
   border-width: 2px;
-  border-color: #093b8b;
+  border-color: #ff8400;
 }
 
 .nav-pills {
