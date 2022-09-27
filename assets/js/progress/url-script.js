@@ -239,6 +239,7 @@ function getFiles() {
       7: "modulo2-7.html",
       8: "modulo2-8.html",
       9: "modulo2-9.html",
+      10: "modulo2-10.html",
     },
     modulo1t: {
       1: "modulo1-1.html",
