@@ -70,6 +70,13 @@
         opacity: 1;
         z-index: 1;
     }
+
+    .card-fixed:hover{
+        height: 1400px;
+    }
+    
+
+    
 }
 
 @media (max-width:576px) {

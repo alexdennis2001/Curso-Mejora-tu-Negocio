@@ -52,7 +52,7 @@
   
   .crossword{
     display: block;  
-    background-color: #FFAE6D;
+    background-color: white;
     border-radius: 10px;  
   }
 
@@ -82,7 +82,7 @@
     width: 1.25em;
     height: 1.25em;
     text-align: center;
-    background-color: #FDEEDC;  
+    background-color: #f8d8b0;  
     border-radius: 2px;
     color: #323232;
     font-family: 'Times New Roman', Times, serif;

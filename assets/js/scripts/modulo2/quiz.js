@@ -123,7 +123,7 @@ function checkForAnswer() {
     //checking if checked radio button is same as answer
     options.forEach((option) => {
         if (option.checked === true && option.value === currentQuestionAnswer) {
-            document.getElementById(correctOption).style.backgroundColor = "green"
+            document.getElementById(correctOption).style.backgroundColor = "#B4E197"
             playerScore++ //adding to player's score
             indexNumber++ //adding 1 to index so has to display next question..
             //set to delay question number till when next question loads
@@ -134,8 +134,8 @@ function checkForAnswer() {
 
         else if (option.checked && option.value !== currentQuestionAnswer) {
             const wrongLabelId = option.labels[0].id
-            document.getElementById(wrongLabelId).style.backgroundColor = "red"
-            document.getElementById(correctOption).style.backgroundColor = "green"
+            document.getElementById(wrongLabelId).style.backgroundColor = "#FF8080"
+            document.getElementById(correctOption).style.backgroundColor = "#B4E197"
             wrongAttempt++ //adds 1 to wrong attempts 
             indexNumber++
             //set to delay question number till when next question loads
@@ -188,15 +188,15 @@ function handleEndGame() {
 
     // condition check for player remark and remark color
     if (playerScore <= 3) {
-        remark = "Bad Grades, Keep Practicing."
+        remark = "Sigue practicando el quiz!"
         remarkColor = "red"
     }
     else if (playerScore >= 4 && playerScore < 7) {
-        remark = "Average Grades, You can do better."
+        remark = "Puedes hacerlo mejor!"
         remarkColor = "orange"
     }
     else if (playerScore >= 7) {
-        remark = "Excellent, Keep the good work going."
+        remark = "Excelente se ve el dominio del tema!"
         remarkColor = "green"
     }
     const playerGrade = (playerScore / 10) * 100
