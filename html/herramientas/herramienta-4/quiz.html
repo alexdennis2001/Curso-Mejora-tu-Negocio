@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
+    />
+    <title>Ejercicio 2 | CVA - Centro Virtual de Aprendizaje</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/images/logo/favicon.png" />
+
+    <!-- plugins css -->
+    <link
+      rel="stylesheet"
+      href="/assets/vendors/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/vendors/PACE/themes/blue/pace-theme-minimal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css"
+    />
+
+    <!-- page plugins css -->
+
+    <!-- core css -->
+    <link href="/assets/css/ei-icon.css" rel="stylesheet" />
+    <link href="/assets/css/themify-icons.css" rel="stylesheet" />
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/assets/css/animate.min.css" rel="stylesheet" />
+    <link href="/assets/css/app.css" rel="stylesheet" />
+    <link href="/assets/css/progress.css" rel="stylesheet" />
+    <link href="/assets/css/progress-circle.css" rel="stylesheet" />
+  </head>
+
+  <body class="header-info side-nav-dark">
+    <div class="app">
+      <div class="layout">
+        <!-- Side Nav START -->
+        <div class="side-nav" id="sideNav"></div>
+        <!-- Side Nav END -->
+
+        <!-- Page Container START -->
+        <div class="page-container">
+          <!-- Header START -->
+          <div class="header navbar"></div>
+          <!-- Header END -->
+
+          <!-- Content Wrapper START -->
+          <div class="main-content">
+            <div class="container-fluid px-0 px-sm-3">
+              <!-- Your content goes here -->
+              <div class="row">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-horizon">
+                      <div class="image-container col-md-5">
+                        <div
+                          class="background-holder has-content"
+                          style="
+                            background-image: url('../../../assets/images/course/modulo1/m1-8/shutterstock_777064027.jpg');
+                          "
+                        ></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-7 ml-auto">
+                          <div class="card-block">
+                            <h1 class="mrg-btm-20 card-title">
+                              Herramienta - Planea tus proyectos
+                            </h1>
+                            <p>
+                              Lee con atención cada enunciado y selecciona una
+                              opción.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- card QUIZ -->
+              <div class="card">
+                <div class="card-block">
+                  <div class="row justify-content-center">
+                    <div
+                      class="col-lg-8 col-md-10 col-sm-12"
+                      id="questions"
+                    ></div>
+
+                    <!-- DIV STICKY SCORECARD -->
+                    <div class="card d-flex p-2 mrg-top-10 w-100">
+                      <div class="submitbutton">
+                        <!-- <button type="button" class="button" onclick="checkAll()">
+                                                        Revisar
+                                                    </button> -->
+                        <button
+                          type="button"
+                          data-toggle="modal"
+                          data-target="#modal-fs"
+                          class="button"
+                          onclick="checkAll()"
+                        >
+                          Revisar
+                        </button>
+                      </div>
+                      <div class="score">
+                        <span></span>
+                      </div>
+                      <div class="msg">
+                        <span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Columna derecha de preguntas END -->
+              </div>
+            </div>
+          </div>
+          <!-- card QUIZ -->
+        </div>
+      </div>
+      <div class="modal fade" id="modal-fs">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="vertical-align text-center">
+                <div class="table-cell">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-9 col-md-10 col-sm-12 mr-auto ml-auto">
+                        <div class="pdd-horizon-30 pdd-btm-50">
+                          <h1 class="mrg-btm-15 text-info" id="modal-score">
+                            0 / 100
+                          </h1>
+                          <h3 class="mrg-top-20" id="modal-message">...</h3>
+                          <img
+                            id="correct-img"
+                            class="img-responsive mrg-horizon-auto"
+                            src="/assets/svg/party.png"
+                            alt="Party img"
+                          />
+                          <img
+                            id="incorrect-img"
+                            class="img-responsive mrg-horizon-auto"
+                            src="/assets/svg/bored.png"
+                            alt="Problem solving img"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="modal-close" href="" data-dismiss="modal">
+                <i class="ti-close"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="content-footer"></footer>
+    </div>
+
+    <!-- build:js assets/js/vendor.js -->
+    <!-- plugins js -->
+    <script src="/assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="/assets/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/assets/js/recycled/navigationbar.js"></script>
+    <script src="/assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/assets/vendors/PACE/pace.min.js"></script>
+    <script src="/assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+
+    <!-- endbuild -->
+
+    <!-- build:js assets/js/app.min.js -->
+    <!-- core js -->
+    <script src="/assets/js/app.js"></script>
+    <!-- endbuild -->
+
+    <!-- Insert your dependencies here -->
+    <script src="./quiz.js"></script>
+  </body>
+</html>

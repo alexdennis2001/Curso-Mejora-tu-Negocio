@@ -1,0 +1,6 @@
+.hover-large {
+    transition: all 0.2s ease-in;
+}
+.hover-large:hover {
+    scale: 1.05;
+}

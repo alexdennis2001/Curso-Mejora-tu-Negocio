@@ -17,6 +17,7 @@
 :root {
   /* Cambiar el valor de la variable según la temática del curso.*/
   --theme-color: #ffa500;
+  --primary: #ffa500;
 }
 
 @import url("@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Lato:wght@300;400;700&family=Merriweather:wght@400;700&display=swap');");
@@ -289,7 +290,7 @@ hr {
 }
 
 .text-primary {
-  color: #7774e7 !important;
+  color: var(--theme-color) !important;
 }
 
 .text-success {
@@ -321,7 +322,7 @@ hr {
 }
 
 .bg-primary {
-  background-color: #7774e7 !important;
+  background-color: var(--theme-color) !important;
 }
 
 .bg-info {
@@ -6785,26 +6786,26 @@ button:disabled {
 }
 
 .btn-primary {
-  background-color: #7774e7;
-  border-color: #7774e7;
+  background-color: var(--theme-color);
+  border-color: var(--theme-color);
   color: #ffffff;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
   color: #ffffff;
-  background-color: #8c8aeb;
-  border-color: #8c8aeb;
+  background-color:  #dd9000;
+  border-color: #dd9000;
 }
 
 .btn-primary:active {
-  background-color: #625ee3;
-  border-color: #625ee3;
+  background-color: #bb7900;
+  border-color: #bb7900;
 }
 
 .btn-primary.active {
-  background-color: #625ee3;
-  border-color: #625ee3;
+  background-color: #ffa500;
+  border-color: var(--theme-color);
 }
 
 .btn-primary.active:hover,
@@ -9379,7 +9380,7 @@ a.card:focus {
 }
 
 .nav-tabs > li > a.active.nav-link {
-  border-bottom: 2px solid #7774e7;
+  border-bottom: 2px solid #ffa500;
   color: #515365;
   background-color: transparent;
 }
@@ -9406,12 +9407,12 @@ a.card:focus {
 }
 
 .tab-info .nav-tabs > li > a.active {
-  border-bottom: 2px solid #0f9aee;
+  border-bottom: 2px solid #ffa500;
 }
 
 .tab-info .nav-tabs > li > a.active:hover,
 .tab-info .nav-tabs > li > a.active:focus {
-  border-bottom: 2px solid #0f9aee;
+  border-bottom: 2px solid #ffa500;
 }
 
 .tab-warning .nav-tabs > li > a.active {
@@ -9697,7 +9698,7 @@ a.card:focus {
 }
 
 .progress-primary .progress-bar {
-  background-color: #7774e7;
+  background-color: var(--theme-color);
 }
 
 .progress-success .progress-bar {
@@ -11604,7 +11605,7 @@ ol {
 .nav-pills .nav-item a {
   border-style: dashed;
   border-width: 2px;
-  border-color: #ff8400;
+  border-color: #ffa500;
 }
 
 .nav-pills {
