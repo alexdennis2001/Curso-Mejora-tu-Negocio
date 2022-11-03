@@ -6,7 +6,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
     />
-    <title>Módulo 1 - Tu Plan de Negocios | CVA - Centro Virtual de Aprendizaje</title>
+    <title>
+      Módulo 4 - Tu Contabilidad y Finanzas | CVA - Centro Virtual de
+      Aprendizaje
+    </title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
@@ -26,6 +29,54 @@
     />
 
     <!-- page plugins css -->
+    <link href="../../assets/css/hover-buttons.css" rel="stylesheet" />
+    <link href="../../assets/css/vocabulary.css" rel="stylesheet" />
+    <style rel="stylesheet" type="text/css">
+      .subtitle-accent {
+        font-weight: 700 !important;
+        margin-top: 1px;
+        color: #55a2fe !important;
+        font-size: 15px !important;
+      }
+
+      svg.fa-play-circle {
+        width: 4rem;
+        height: 4rem;
+        fill: var(--accent-color);
+      }
+
+      .box {
+        max-height: 180px;
+        height: auto;
+        width: auto;
+      }
+
+      .corral {
+        max-width: 350px;
+        height: auto;
+        width: -webkit-fill-available;
+      }
+
+      .clickable {
+        cursor: pointer;
+      }
+
+      .hidden-element {
+        position: absolute;
+        opacity: 0;
+      }
+
+      .shown-element {
+        position: inherit;
+        opacity: 1;
+        transition: opacity 0.8s linear;
+      }
+    </style>
+
+    <link
+      href="../../assets/css/modulos/modulo2/modulo2-5.css"
+      rel="stylesheet"
+    />
 
     <!-- core css -->
     <link href="../../assets/css/ei-icon.css" rel="stylesheet" />
@@ -35,7 +86,6 @@
     <link href="../../assets/css/app.css" rel="stylesheet" />
     <link href="../../assets/css/progress.css" rel="stylesheet" />
     <link href="../../assets/css/progress-circle.css" rel="stylesheet" />
-    <link href="../../assets/css/modulos/modulo1/list-hover.css" rel="stylesheet" />
   </head>
 
   <body class="header-info side-nav-dark">
@@ -55,147 +105,225 @@
           <div class="main-content">
             <div class="container-fluid px-0 px-sm-3">
               <!-- Your content goes here -->
-                <!--Recomendaciones de conservación de organismos START-->
-                <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-block">
-                                <h1 class="card-title">
-                                    Métodos de estudio
-                                </h1>
-                                <p class="card-info mb-3">
-                                    <i class="icon ti-mouse-alt"></i> Haz clic en las
-                                    tarjetas para saber más de cada tipo de componente.
-                                </p>
-                            
-                                <!--Tarjeta con botones laterales START-->
-                                <div class="pill-info nav-vertical nav-stacked">
-                                    <!--Botones laterales START-->
-                                    <ul class="nav nav-pills" role="tablist">
-                                        <li class="nav-item">
-                                            <a
-                                            href="#recomendacion-1"
-                                            class="nav-link active"
-                                            role="tab"
-                                            data-toggle="tab"
-                                            >Investigación cuantitativa</a
-                                            >
-                                        </li>
-                                        <li class="nav-item">
-                                            <a
-                                            href="#recomendacion-2"
-                                            class="nav-link"
-                                            role="tab"
-                                            data-toggle="tab"
-                                            >Investigación cualitativa</a
-                                            >
-                                        </li>
-                                    </ul>
-                                    <!--Botones laterales FIN-->
-
-                                    <!--Contenido de tarjeta START-->
-                                    <div class="tab-content">
-                                    <!--Recomendación 1 START-->
-                                    <div
-                                        role="tabpanel"
-                                        class="tab-pane fade in active"
-                                        id="recomendacion-1"
-                                    >
-                                        <div class="row">
-                                        <div class="col">
-                                            <div class="card">
-                                            <div class="card-horizon">
-                                                <div class="image-container col-md-4">
-                                                <div
-                                                    class="background-holder has-content"
-                                                    style="
-                                                    background-image: url('../../assets/images/course/modulo3/written-test.jpg');
-                                                    "
-                                                ></div>
-                                                </div>
-                                                <div class="container-fluid">
-                                                <div class="row">
-                                                    <div class="col-md-8 ml-auto">
-                                                    <div class="card-block">
-                                                        <h2 class="mrg-btm-20 card-title">
-                                                        Investigación cuantitativa
-                                                        </h2>
-                                                        <h3>
-                                                            <ul>
-                                                                <li><b>Encuestas</b></li>
-                                                                <ul>
-                                                                    <li>Realizan <b>preguntas muy específicas</b> para medir y entender al mercado.</li>
-                                                                </ul>
-                                                            </ul>
-                                                        </h3>
-                                                    </div>
-                                                    </div>
-                                                </div>
-                                                </div>
-                                            </div>
-                                            </div>
-                                        </div>
-                                        </div>
-                                    </div>
-                                    <!--Recomendación 1 FIN-->
-
-                                    <!--Recomendación 2 START-->
-                                    <div
-                                        role="tabpanel"
-                                        class="tab-pane fade"
-                                        id="recomendacion-2"
-                                    >
-                                        <div class="row">
-                                        <div class="col">
-                                            <div class="card">
-                                            <div class="card-horizon">
-                                                <div class="image-container col-md-4">
-                                                <div
-                                                    class="background-holder has-content"
-                                                    style="
-                                                    background-image: url('../../assets/images/course/modulo3/focus-group.jpg');
-                                                    "
-                                                ></div>
-                                                </div>
-                                                <div class="container-fluid">
-                                                <div class="row">
-                                                    <div class="col-md-8 ml-auto">
-                                                        <div class="card-block">
-                                                            <h2 class="mrg-btm-20 card-title">
-                                                                Investigación cualitativa
-                                                            </h2>
-                                                            <h3>
-                                                                <ul>
-                                                                    <li><b>Focus group</b></li>
-                                                                    <ul>
-                                                                        <li>Reunir a un grupo pequeño de personas para <b>discutir un tema en particular</b> (pueden surgir temas inesperados conforme pasa la plática y te brinda un mayor panorama de información desconocida).</li>
-                                                                    </ul>
-                                                                    <li><b>Entrevistas</b></li>
-                                                                    <ul>
-                                                                        <li>Recopila datos mediante <b>preguntas abiertas</b> para conocer las preferencias y opiniones de los entrevistados.</li>
-                                                                    </ul>
-                                                                </ul>
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                </div>
-                                            </div>
-                                            </div>
-                                        </div>
-                                        </div>
-                                    </div>
-                                    <!--Recomendación 2 FIN-->
-
-                                    </div>
-                                    <!--Contenido de tarjeta FIN-->
-                                </div>
-                            <!--Tarjeta con botones laterales FIN-->
-                            </div>
-                        </div>
+              <div class="card">
+                <div
+                  class="overlay-dark bg"
+                  style="
+                    background-image: url('../../assets/images/course/modulo1/m1-4/shutterstock_728178127_1.jpg');
+                    background-position-y: 45%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    object-fit: cover;
+                  "
+                ></div>
+                <div class="card-block">
+                  <h1 class="card-title">
+                    <span class="badge badge-light">Tema 1</span> Activos,
+                    Pasivos, y Capital Contable
+                  </h1>
+                  <div class="container">
+                    <!--first section-->
+                    <div class="row align-items-center how-it-works d-flex">
+                      <div
+                        class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center"
+                      >
+                        <div class="circle font-weight-bold">1</div>
+                      </div>
+                      <div class="col-6">
+                        <h3>
+                          <b
+                            >Empezaremos con los activos, pasivos, y el capital
+                            contable.
+                          </b>
+                        </h3>
+                        <p>
+                          Los activos son todo lo que la empresa tiene que le
+                          “suma” valor. Puede ser efectivo (caja), equivalentes
+                          a efectivo, las cuentas por cobrar (dinero que se le
+                          debe a la empresa), el inventario, etc.
+                        </p>
+                      </div>
                     </div>
+                    <!--path between 1-2-->
+                    <div class="row timeline">
+                      <div class="col-2">
+                        <div class="corner top-right"></div>
+                      </div>
+                      <div class="col-8">
+                        <hr />
+                      </div>
+                      <div class="col-2">
+                        <div class="corner left-bottom"></div>
+                      </div>
+                    </div>
+                    <!--second section-->
+                    <div
+                      class="row align-items-center justify-content-end how-it-works d-flex"
+                    >
+                      <div class="col-6 text-right">
+                        <h3></h3>
+                        <p>
+                          Los pasivos son cosas que la empresa debe, es una
+                          manera de visualizar la deuda - aunque esta sea a
+                          corto o largo plazo. Son cosas como las cuentas por
+                          pagar, las deudas, etc.
+                        </p>
+                      </div>
+                      <div
+                        class="col-2 text-center full d-inline-flex justify-content-center align-items-center"
+                      >
+                        <div class="circle font-weight-bold">2</div>
+                      </div>
+                    </div>
+                    <!--path between 2-3-->
+                    <div class="row timeline">
+                      <div class="col-2">
+                        <div class="corner right-bottom"></div>
+                      </div>
+                      <div class="col-8">
+                        <hr />
+                      </div>
+                      <div class="col-2">
+                        <div class="corner top-left"></div>
+                      </div>
+                    </div>
+
+                    <!--third section-->
+                    <div class="row align-items-center how-it-works d-flex">
+                      <div
+                        class="col-2 text-center full d-inline-flex justify-content-center align-items-center"
+                        style="margin-left: 3px"
+                      >
+                        <div class="circle font-weight-bold">3</div>
+                      </div>
+                      <div class="col-6">
+                        <h3><b></b></h3>
+                        <p>
+                          El Capital Contable es un reflejo de la cantidad de
+                          dinero que se ha invertido en la empresa y también
+                          refleja las utilidades retenidas de ejercicios
+                          anteriores de la empresa. Es una manera de poder
+                          visualizar lo que la empresa tiene actualmente.
+                        </p>
+                      </div>
+                    </div>
+
+                    <!--path between 3-4-->
+                    <div class="row timeline">
+                      <div class="col-2">
+                        <div class="corner top-right"></div>
+                      </div>
+                      <div class="col-8">
+                        <hr />
+                      </div>
+                      <div class="col-2">
+                        <div class="corner left-bottom"></div>
+                      </div>
+                    </div>
+
+                    <!--fourth section-->
+                    <div
+                      class="row align-items-center justify-content-end how-it-works d-flex"
+                    >
+                      <div class="col-6 text-right">
+                        <h3>
+                          <b> Capital = Activos - Pasivos </b>
+                        </h3>
+                        <p>
+                          Una buena fórmula que deberíamos tener en cuenta...
+                        </p>
+                      </div>
+                      <div
+                        class="col-2 text-center full d-inline-flex justify-content-center align-items-center"
+                      >
+                        <div class="circle font-weight-bold">4</div>
+                      </div>
+                    </div>
+
+                    <!--path between 4-5-->
+                    <div class="row timeline">
+                      <div class="col-2">
+                        <div class="corner right-bottom"></div>
+                      </div>
+                      <div class="col-8">
+                        <hr />
+                      </div>
+                      <div class="col-2">
+                        <div class="corner top-left"></div>
+                      </div>
+                    </div>
+
+                    <!--fifth section-->
+                    <div class="row align-items-center how-it-works d-flex">
+                      <div
+                        class="col-2 text-center full d-inline-flex justify-content-center align-items-center"
+                        style="margin-left: 3px"
+                      >
+                        <div class="circle font-weight-bold">5</div>
+                      </div>
+                      <div class="col-6">
+                        <h3>
+                          <b></b>
+                        </h3>
+                        <p>Y sus variaciones</p>
+                      </div>
+                    </div>
+
+                    <!--path between 5-6-->
+                    <div class="row timeline">
+                      <div class="col-2">
+                        <div class="corner top-right"></div>
+                      </div>
+                      <div class="col-8">
+                        <hr />
+                      </div>
+                      <div class="col-2">
+                        <div class="corner left-bottom"></div>
+                      </div>
+                    </div>
+
+                    <!--sixth section-->
+                    <div
+                      class="row align-items-center justify-content-end how-it-works d-flex"
+                    >
+                      <div class="col-6 text-right">
+                        <h3><b>Activos = Pasivos + Capital </b></h3>
+                        <p></p>
+                      </div>
+                      <div
+                        class="col-2 text-center full d-inline-flex justify-content-center align-items-center"
+                      >
+                        <div class="circle font-weight-bold">6</div>
+                      </div>
+                    </div>
+
+                    <!--path between 6-7-->
+                    <div class="row timeline">
+                      <div class="col-2">
+                        <div class="corner right-bottom"></div>
+                      </div>
+                      <div class="col-8">
+                        <hr />
+                      </div>
+                      <div class="col-2">
+                        <div class="corner top-left"></div>
+                      </div>
+                    </div>
+                    <!--seventh section-->
+                    <div class="row align-items-center how-it-works d-flex">
+                      <div
+                        class="col-2 text-center top d-inline-flex justify-content-center align-items-center"
+                      >
+                        <div class="circle font-weight-bold">7</div>
+                      </div>
+                      <div class="col-6">
+                        <h3><b>Pasivos = Activos - Capital</b></h3>
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <!--Recomendaciones de conservación de organismos START-->
+              </div>
 
               <div class="row mrg-btm-20">
                 <div class="col text-center">
@@ -206,7 +334,7 @@
               <div class="card widget-feed">
                 <div class="row">
                   <div class="col-lg-8">
-                    <h1 class="feed-title tag tag-info">Módulo 1</h1>
+                    <h1 class="feed-title tag tag-info">Módulo 4</h1>
                     <h3 class="feed-subtitle">Tu Progreso</h3>
                     <div class="progress" style="height: 20px" id="bar">
                       <div
@@ -215,9 +343,9 @@
                         aria-valuenow="25"
                         aria-valuemin="0"
                         aria-valuemax="100"
-                        style="max-width: 4%"
+                        style="max-width: 17%"
                       >
-                        4%
+                        17%
                       </div>
                     </div>
                   </div>
@@ -270,11 +398,57 @@
 
     <!-- Aquí se inserta el porcentage del círculo de progreso como una fracción -->
     <script type="text/javascript">
-      show(0.02);
+      show(0.07);
     </script>
 
     <!-- endbuild -->
 
     <!-- Insert your dependencies here -->
+    <!-- Es posible hacer un archivo exclusivo de JS, aunque también lo es colocarlo aquí, es tu elección -->
+    <script src="../../assets/js/scripts/audio_player_basic.js"></script>
+
+    <!-- Necesario para el Ejemplo 3 -->
+    <script>
+      const build1 =
+        "../../assets/images/course/modulo1/actividades/build_1.png";
+      const build2 =
+        "../../assets/images/course/modulo1/actividades/build_2.png";
+      const build3 =
+        "../../assets/images/course/modulo1/actividades/build_3.png";
+      const build4 =
+        "../../assets/images/course/modulo1/actividades/build_4.png";
+      const builds = [build1, build2, build3, build4];
+
+      function build(buildId) {
+        const build = builds[buildId - 1];
+        const boxTextId = "text-" + buildId.toString();
+        const boxImageId = "build-" + buildId.toString();
+        let boxImage = document.getElementById(boxImageId);
+        let boxText = document.getElementById(boxTextId);
+
+        boxImage.src = build;
+        boxImage.classList.remove("clickable");
+
+        boxText.classList.remove("hidden-text");
+        boxText.classList.add("shown-text");
+      }
+
+      function openBox(id) {
+        const boxId = "box-" + id.toString();
+        const buildId = "build-" + id.toString();
+        const textId = "text-" + id.toString();
+        const box = document.getElementById(boxId);
+        const build = document.getElementById(buildId);
+        const text = document.getElementById(textId);
+
+        box.classList.add("hidden-element");
+
+        build.classList.remove("hidden-element");
+        build.classList.add("shown-element");
+
+        text.classList.remove("hidden-element");
+        text.classList.add("shown-element");
+      }
+    </script>
   </body>
 </html>

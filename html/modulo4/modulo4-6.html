@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
+    />
+    <title>
+      Módulo 4 - Tu Contabilidad y Finanzas | CVA - Centro Virtual de
+      Aprendizaje
+    </title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
+
+    <!-- plugins css -->
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css"
+    />
+
+    <!-- page plugins css -->
+
+    <!-- core css -->
+    <link href="../../assets/css/ei-icon.css" rel="stylesheet" />
+    <link href="../../assets/css/themify-icons.css" rel="stylesheet" />
+    <link href="../../assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../../assets/css/animate.min.css" rel="stylesheet" />
+    <link href="../../assets/css/app.css" rel="stylesheet" />
+    <link href="../../assets/css/progress.css" rel="stylesheet" />
+    <link href="../../assets/css/progress-circle.css" rel="stylesheet" />
+  </head>
+
+  <body class="header-info side-nav-dark">
+    <div class="app">
+      <div class="layout">
+        <!-- Side Nav START -->
+        <div class="side-nav" id="sideNav"></div>
+        <!-- Side Nav END -->
+
+        <!-- Page Container START -->
+        <div class="page-container">
+          <!-- Header START -->
+          <div class="header navbar"></div>
+          <!-- Header END -->
+
+          <!-- Content Wrapper START -->
+          <div class="main-content">
+            <div class="container-fluid px-0 px-sm-3">
+              <!-- Your content goes here -->
+
+              <div class="row">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-horizon">
+                      <div class="image-container col-md-4">
+                        <div
+                          class="background-holder has-content"
+                          style="
+                            background-image: url('../../assets/images/course/modulo1/m1-6/shutterstock_1391316737_1.jpg');
+                          "
+                        ></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-8 ml-auto">
+                          <div class="card-block">
+                            <h1 class="mrg-btm-20 card-title">
+                              <span class="badge badge-light">Tema 1</span>
+                              Estado de Resultados y Balance General
+                            </h1>
+
+                            <p>
+                              Un estado de resultados es una de las mejores
+                              herramientas donde podemos analizar nuestras
+                              utilidades, mencionadas anteriormente. La primera
+                              entrada en el Estado de Resultados son nuestras
+                              ventas y al final podemos visualizar con cuanto
+                              dinero nos estamos quedando (la utilidad neta que
+                              mencionamos en la explicación anterior). Esta es
+                              una herramienta que nos sirve para poder realmente
+                              comprender cuánto estamos ganando de nuestras
+                              ventas y poder visualizar en qué estamos gastando
+                              o que está ocasionando que los ingresos netos
+                              estén reducidos.
+                            </p>
+                            <p>Ejemplo Estado de Resultados simplificado:</p>
+                            <div>
+                              <u>Estado de resultados</u>
+                              <p>Ventas</p>
+                              <p>&#8722; costos de Venta</p>
+                              <p>= Utilidad bruta</p>
+                              <br />
+                              <p>
+                                &#8722; Gastos de operación (gastos de venta, de
+                                administración...)
+                              </p>
+                              <p>= Utilidad de operacion</p>
+                              <br />
+                              <p>&#8722; impuestos</p>
+                              <p>= Utilidad neta</p>
+                              <br />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                          <div class="card-block">
+                            <h2 class="mrg-btm-20 card-title">
+                              Balance General
+                            </h2>
+                            <p>
+                              El Balance General es otra herramienta para poder
+                              analizar información de tu negocio, pero esta está
+                              enfocada en enseñarnos el estado de los activos,
+                              pasivos, y capital de la empresa. Es recomendable
+                              realizarla de manera anual para poder ver y
+                              comparar los cambios. Es muy importante porque nos
+                              ayuda a entender en cual tenemos mayor peso. Es
+                              una manera de visualizar si la empresa tiene mucha
+                              deuda, mucho inventario, la cantidad de efectivo,
+                              etc.
+                              <br />
+                              <br />
+                              Ejemplo de un Balance General simplificado (puedes
+                              insertar valores y ver como funciona):
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                          <div class="card-block">
+                            <u>Balance general</u>
+                            <div class="table-overflow">
+                              <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th>Activos</th>
+                                    <th></th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>
+                                      <i>Activos corto plazo</i>
+                                    </td>
+                                    <td></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Efectivo y equivalentes</td>
+                                    <td>
+                                      <input
+                                        type="number"
+                                        class="form-control"
+                                        id="acp-1"
+                                        onchange="calcular()"
+                                        placeholder="0"
+                                        value="0"
+                                      />
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>Cuentas por Cobrar</td>
+                                    <td>
+                                      <input
+                                        type="number"
+                                        class="form-control"
+                                        id="acp-2"
+                                        onchange="calcular()"
+                                        placeholder="0"
+                                        value="0"
+                                      />
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>Inventario</td>
+                                    <td>
+                                      <input
+                                        type="number"
+                                        class="form-control"
+                                        id="acp-3"
+                                        onchange="calcular()"
+                                        placeholder="0"
+                                        value="0"
+                                      />
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>Total Activos Corto Plazo</td>
+                                    <td id="total-activos-corto-plazo">$0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <i>Activos Largo Plazo</i>
+                                    </td>
+                                    <td></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Planta y Equipo</td>
+                                    <td>
+                                      <input
+                                        type="number"
+                                        class="form-control"
+                                        id="alp-1"
+                                        onchange="calcular()"
+                                        placeholder="0"
+                                        value="0"
+                                      />
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>Total Activos Largo Plazo</td>
+                                    <td id="total-activos-largo-plazo">$0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <i>Total Activos</i>
+                                    </td>
+                                    <td id="total-activos">$0</td>
+                                  </tr>
+                                  <tr>
+                                    <td></td>
+                                    <td></td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <b>Pasivos</b>
+                                    </td>
+                                    <td></td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <i>Pasivos Corto Plazo</i>
+                                    </td>
+                                    <td></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Cuentas por pagar</td>
+                                    <td>
+                                      <input
+                                        type="number"
+                                        class="form-control"
+                                        id="pcp-1"
+                                        onchange="calcular()"
+                                        placeholder="0"
+                                        value="0"
+                                      />
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>Total Pasivos Corto Plazo</td>
+                                    <td id="total-pasivos-corto-plazo">$0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <i>Pasivos Largo Plazo</i>
+                                    </td>
+                                    <td></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Deudas a largo plazo</td>
+                                    <td>
+                                      <input
+                                        type="number"
+                                        class="form-control"
+                                        id="plp-1"
+                                        onchange="calcular()"
+                                        placeholder="0"
+                                        value="0"
+                                      />
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>Total Pasivos a Largo Plazo</td>
+                                    <td id="total-pasivos-largo-plazo">$0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <i>Total Pasivos</i>
+                                    </td>
+                                    <td id="total-pasivos">$0</td>
+                                  </tr>
+                                  <tr>
+                                    <td></td>
+                                    <td></td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <b>Capital</b>
+                                    </td>
+                                    <td></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Utilidad Pasada</td>
+                                    <td>
+                                      <input
+                                        type="number"
+                                        class="form-control"
+                                        id="cap-1"
+                                        onchange="calcular()"
+                                        placeholder="0"
+                                        value="0"
+                                      />
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>Capital Contable</td>
+                                    <td id="cap-2">$0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Total Pasivos y Capital</td>
+                                    <td id="cap-3">$0</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Total Capital</td>
+                                    <td>
+                                      <b id="total-cap">$0</b>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mrg-btm-20">
+                <div class="col text-center">
+                  <div class="btn-group"></div>
+                </div>
+              </div>
+
+              <div class="card widget-feed">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h1 class="feed-title tag tag-info">Módulo 4</h1>
+                    <h3 class="feed-subtitle">Tu Progreso</h3>
+                    <div class="progress" style="height: 20px" id="bar">
+                      <div
+                        class="progress-bar bg-info"
+                        role="progressbar"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="max-width: 25%"
+                      >
+                        25%
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="row">
+                      <div class="col">
+                        <div id="circlecontainer"></div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col text-center">
+                        <h3 class="feed-subtitle">
+                          Progreso General del Curso
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Content Wrapper END -->
+
+          <!-- Footer START -->
+          <footer class="content-footer"></footer>
+          <!-- Footer END -->
+        </div>
+        <!-- Page Container END -->
+      </div>
+    </div>
+
+    <!-- build:js assets/js/vendor.js -->
+    <!-- plugins js -->
+    <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/js/recycled/navigationbar.js"></script>
+    <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../assets/vendors/PACE/pace.min.js"></script>
+    <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+
+    <script src="../../assets/js/progressbar.js"></script>
+    <script src="../../assets/js/progress-circle.js"></script>
+
+    <!-- endbuild -->
+
+    <!-- build:js assets/js/app.min.js -->
+    <!-- core js -->
+    <script src="../../assets/js/app.js"></script>
+    <script src="../../assets/js/progress/url-script.js"></script>
+
+    <!-- Aquí se inserta el porcentage del círculo de progreso como una fracción -->
+    <script type="text/javascript">
+      show(0.11);
+    </script>
+
+    <script src="./balance.js"></script>
+    <!-- endbuild -->
+
+    <!-- Insert your dependencies here -->
+  </body>
+</html>
