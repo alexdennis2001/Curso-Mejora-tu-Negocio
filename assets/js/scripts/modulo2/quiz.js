@@ -193,7 +193,7 @@ function handleEndGame() {
     }
     else if (playerScore >= 4 && playerScore < 7) {
         remark = "Puedes hacerlo mejor!"
-        remarkColor = "orange"
+        remarkColor = "white"
     }
     else if (playerScore >= 7) {
         remark = "Excelente se ve el dominio del tema!"
