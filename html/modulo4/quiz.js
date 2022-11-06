@@ -63,7 +63,7 @@ const question = function (i, { text, incorrectText, correctText, correctIndex, 
     const answersHtml = answersList(answers, correctIndex, i);
 
     return `
-        <div class="question">
+        <div class="question col-6">
             <p class="question-text">
                 ${i + 1}. ${text}
             </p>
