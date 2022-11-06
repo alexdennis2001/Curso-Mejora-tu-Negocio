@@ -127,6 +127,44 @@
           </div>
           <!-- card QUIZ -->
         </div>
+        <div class="row mrg-btm-20">
+          <div class="col text-center">
+            <div class="btn-group"></div>
+          </div>
+        </div>
+
+        <div class="card widget-feed">
+          <div class="row">
+            <div class="col-lg-8">
+              <h1 class="feed-title tag tag-info">Módulo 4</h1>
+              <h3 class="feed-subtitle">Tu Progreso</h3>
+              <div class="progress" style="height: 20px" id="bar">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="max-width: 8%"
+                >
+                  8%
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="row">
+                <div class="col">
+                  <div id="circlecontainer"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col text-center">
+                  <h3 class="feed-subtitle">Progreso General del Curso</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="modal fade" id="modal-fs">
         <div class="modal-dialog modal-lg" role="document">
@@ -173,18 +211,24 @@
 
     <!-- build:js assets/js/vendor.js -->
     <!-- plugins js -->
-    <script src="../../../assets/vendors/jquery/dist/jquery.min.js"></script>
-    <script src="../../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
-    <script src="../../../assets/js/recycled/navigationbar.js"></script>
-    <script src="../../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="../../../assets/vendors/PACE/pace.min.js"></script>
-    <script src="../../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <!-- build:js assets/js/vendor.js -->
+    <!-- plugins js -->
+    <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/js/recycled/navigationbar.js"></script>
+    <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../assets/vendors/PACE/pace.min.js"></script>
+    <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+
+    <script src="../../assets/js/progressbar.js"></script>
+    <script src="../../assets/js/progress-circle.js"></script>
 
     <!-- endbuild -->
 
     <!-- build:js assets/js/app.min.js -->
     <!-- core js -->
-    <script src="../../../assets/js/app.js"></script>
+    <script src="../../assets/js/app.js"></script>
+    <script src="../../assets/js/progress/url-script.js"></script>
     <!-- endbuild -->
 
     <!-- Insert your dependencies here -->
