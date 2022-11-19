@@ -86,6 +86,10 @@
     .container .card{
         height: 280px;
     }
+    .card-fixed:hover{
+        height: 1320px;
+    }
+    
 }
 
 @media (max-width: 400px) {
@@ -104,4 +108,8 @@
         height: 280px;
         transform: translate(-50%,calc(-50% + calc(320px * var(--j)))) rotate(0deg) skew(0deg,0deg);
     }
+    .card-fixed:hover{
+        height: 1100px;
+    }
+    
 }

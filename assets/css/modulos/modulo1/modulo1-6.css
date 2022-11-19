@@ -122,9 +122,13 @@
   
   #btnCheck {
       cursor: pointer;
+      background: #f09e3a;
+      color: white;
   }
   
   #btnReset {
       margin-left: 30px;
       cursor: pointer;
+      background: #f09e3a;
+      color: white;
   }
