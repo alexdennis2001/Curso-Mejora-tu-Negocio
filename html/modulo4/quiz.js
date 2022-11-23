@@ -63,7 +63,7 @@ const question = function (i, { text, incorrectText, correctText, correctIndex, 
     const answersHtml = answersList(answers, correctIndex, i);
 
     return `
-        <div class="question col-6">
+        <div class="question col-md-5 col-sm-11 mx-1">
             <p class="question-text">
                 ${i + 1}. ${text}
             </p>
@@ -97,7 +97,6 @@ document.addEventListener('DOMContentLoaded', function (_) {
     questionsContainer.insertAdjacentHTML('afterbegin', qs);
 
     $(".custom-control-label").on("click", function () {
-        console.log('clicked')
         if ($(this).siblings().is(":checked")) {
             $(this).siblings().removeAttr("checked");
         } else {
