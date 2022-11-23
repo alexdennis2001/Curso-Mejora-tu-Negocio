@@ -44,7 +44,7 @@ const question = function (i, { text, incorrectText, correctText, correctIndex, 
     const answersHtml = answersList(answers, correctIndex, i);
 
     return `
-        <div class="question">
+        <div class="question col-md-5 col-sm-12 mx-1">
             <p class="question-text">
                 ${i + 1}. ${text}
             </p>
@@ -77,6 +77,9 @@ const modalScore = modal.querySelector('#modal-score');
 const correctImg = modal.querySelector('#correct-img');
 const incorrectImg = modal.querySelector('#incorrect-img');
 
+const goBack = document.querySelector('#go-back');
+goBack.style.display = 'none';
+
 document.addEventListener('DOMContentLoaded', function (_) {
     const qs = generateQuestions();
     questionsContainer.insertAdjacentHTML('afterbegin', qs);
@@ -97,6 +100,8 @@ document.addEventListener('DOMContentLoaded', function (_) {
 function checkAll() {
     var correct = 0;
     var count = 0;
+
+    goBack.style.display = 'block';
 
     $("div.question").each(function () {
         count++;
@@ -142,7 +147,6 @@ function checkAll() {
         correctImg.style.display = "none";
         if (score < 25) {
             alert("Le recomendamos volver a leer esta sección para tener mayor puntuaje que 25.");
-            window.location.href = './intro.html'
         }
     }
 }

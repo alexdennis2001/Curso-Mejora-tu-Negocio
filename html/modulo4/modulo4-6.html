@@ -85,23 +85,44 @@
                               o que está ocasionando que los ingresos netos
                               estén reducidos.
                             </p>
+                            <p>Ejemplo de estado de resultados: &#8594;</p>
                           </div>
                           <div class="col-md-3 col-sm-12">
-                            <p>Ejemplo Estado de Resultados simplificado:</p>
-                            <div>
-                              <p>Ventas</p>
-                              <p>&#8722; costos de Venta</p>
-                              <p>= Utilidad bruta</p>
-                              <br />
-                              <p>
-                                &#8722; Gastos de operación (gastos de venta, de
-                                administración...)
-                              </p>
-                              <p>= Utilidad de operacion</p>
-                              <br />
-                              <p>&#8722; impuestos</p>
-                              <p>= Utilidad neta</p>
-                              <br />
+                            <div class="table-overflow">
+                              <table
+                                class="table table-lg table-bordered text-dark"
+                              >
+                                <tbody>
+                                  <tr>
+                                    <td><b>Ventas</b></td>
+                                    <td>$100</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Costos de venta</td>
+                                    <td>- $20</td>
+                                  </tr>
+                                  <tr>
+                                    <td><b>Utilidad bruta</b></td>
+                                    <td>$80</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Gastos de operacion</td>
+                                    <td>- $30</td>
+                                  </tr>
+                                  <tr>
+                                    <td><b>Utilidad de operacion</b></td>
+                                    <td>$50</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Impuestos</td>
+                                    <td>- $10</td>
+                                  </tr>
+                                  <tr>
+                                    <td><b>Utilidad neta</b></td>
+                                    <td>$40</td>
+                                  </tr>
+                                </tbody>
+                              </table>
                             </div>
                           </div>
                         </div>
@@ -130,196 +151,218 @@
                             </p>
                           </div>
                         </div>
-                        <div class="col-md-4 col-sm-12">
+                        <div class="col-md-6 col-sm-12">
+                          <img src="../../assets/svg/stats.jpeg" width="80%" />
+                        </div>
+                        <div class="col-12">
                           <div class="card-block">
-                            <div class="table-overflow balance">
-                              <table class="table">
-                                <thead>
-                                  <tr>
-                                    <th>Activos</th>
-                                    <th></th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td>
-                                      <i>Activos corto plazo</i>
-                                    </td>
-                                    <td></td>
-                                  </tr>
-                                  <tr>
-                                    <td>Efectivo y equivalentes</td>
-                                    <td>
-                                      <input
-                                        type="number"
-                                        class="form-control"
-                                        id="acp-1"
-                                        onchange="calcular()"
-                                        placeholder="0"
-                                        value="0"
-                                      />
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td>Cuentas por Cobrar</td>
-                                    <td>
-                                      <input
-                                        type="number"
-                                        class="form-control"
-                                        id="acp-2"
-                                        onchange="calcular()"
-                                        placeholder="0"
-                                        value="0"
-                                      />
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td>Inventario</td>
-                                    <td>
-                                      <input
-                                        type="number"
-                                        class="form-control"
-                                        id="acp-3"
-                                        onchange="calcular()"
-                                        placeholder="0"
-                                        value="0"
-                                      />
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td>Total Activos Corto Plazo</td>
-                                    <td id="total-activos-corto-plazo">$0</td>
-                                  </tr>
-                                  <tr>
-                                    <td>
-                                      <i>Activos Largo Plazo</i>
-                                    </td>
-                                    <td></td>
-                                  </tr>
-                                  <tr>
-                                    <td>Planta y Equipo</td>
-                                    <td>
-                                      <input
-                                        type="number"
-                                        class="form-control"
-                                        id="alp-1"
-                                        onchange="calcular()"
-                                        placeholder="0"
-                                        value="0"
-                                      />
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td>Total Activos Largo Plazo</td>
-                                    <td id="total-activos-largo-plazo">$0</td>
-                                  </tr>
-                                  <tr>
-                                    <td>
-                                      <i>Total Activos</i>
-                                    </td>
-                                    <td id="total-activos">$0</td>
-                                  </tr>
-                                  <tr>
-                                    <td></td>
-                                    <td></td>
-                                  </tr>
-                                  <tr>
-                                    <td>
-                                      <b>Pasivos</b>
-                                    </td>
-                                    <td></td>
-                                  </tr>
-                                  <tr>
-                                    <td>
-                                      <i>Pasivos Corto Plazo</i>
-                                    </td>
-                                    <td></td>
-                                  </tr>
-                                  <tr>
-                                    <td>Cuentas por pagar</td>
-                                    <td>
-                                      <input
-                                        type="number"
-                                        class="form-control"
-                                        id="pcp-1"
-                                        onchange="calcular()"
-                                        placeholder="0"
-                                        value="0"
-                                      />
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td>Total Pasivos Corto Plazo</td>
-                                    <td id="total-pasivos-corto-plazo">$0</td>
-                                  </tr>
-                                  <tr>
-                                    <td>
-                                      <i>Pasivos Largo Plazo</i>
-                                    </td>
-                                    <td></td>
-                                  </tr>
-                                  <tr>
-                                    <td>Deudas a largo plazo</td>
-                                    <td>
-                                      <input
-                                        type="number"
-                                        class="form-control"
-                                        id="plp-1"
-                                        onchange="calcular()"
-                                        placeholder="0"
-                                        value="0"
-                                      />
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td>Total Pasivos a Largo Plazo</td>
-                                    <td id="total-pasivos-largo-plazo">$0</td>
-                                  </tr>
-                                  <tr>
-                                    <td>
-                                      <i>Total Pasivos</i>
-                                    </td>
-                                    <td id="total-pasivos">$0</td>
-                                  </tr>
-                                  <tr>
-                                    <td></td>
-                                    <td></td>
-                                  </tr>
-                                  <tr>
-                                    <td>
-                                      <b>Capital</b>
-                                    </td>
-                                    <td></td>
-                                  </tr>
-                                  <tr>
-                                    <td>Utilidad Pasada</td>
-                                    <td>
-                                      <input
-                                        type="number"
-                                        class="form-control"
-                                        id="cap-1"
-                                        onchange="calcular()"
-                                        placeholder="0"
-                                        value="0"
-                                      />
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td>Capital Contable</td>
-                                    <td id="cap-2">$0</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Total Pasivos y Capital</td>
-                                    <td id="cap-3">$0</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Total Capital</td>
-                                    <td>
-                                      <b id="total-cap">$0</b>
-                                    </td>
-                                  </tr>
-                                </tbody>
-                              </table>
+                            <div class="row">
+                              <div class="col-md-4 col-sm-12">
+                                <div class="table-overflow">
+                                  <table
+                                    class="table table-lg table-bordered text-dark"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td><b>Activos</b></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td><u>Activos corto plazo</u></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td>Efectivo y equivalentes</td>
+                                        <td>
+                                          <input
+                                            type="number"
+                                            class="form-control"
+                                            id="acp-1"
+                                            onchange="calcular()"
+                                            placeholder="0"
+                                            value="0"
+                                          />
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>Cuentas por Cobrar</td>
+                                        <td>
+                                          <input
+                                            type="number"
+                                            class="form-control"
+                                            id="acp-2"
+                                            onchange="calcular()"
+                                            placeholder="0"
+                                            value="0"
+                                          />
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>Inventario</td>
+                                        <td>
+                                          <input
+                                            type="number"
+                                            class="form-control"
+                                            id="acp-3"
+                                            onchange="calcular()"
+                                            placeholder="0"
+                                            value="0"
+                                          />
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>Total Activos Corto Plazo</td>
+                                        <td id="total-activos-corto-plazo">
+                                          $0
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td><u>Activos largo plazo</u></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td>Planta y Equipo</td>
+                                        <td>
+                                          <input
+                                            type="number"
+                                            class="form-control"
+                                            id="alp-1"
+                                            onchange="calcular()"
+                                            placeholder="0"
+                                            value="0"
+                                          />
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>Total Activos Largo Plazo</td>
+                                        <td id="total-activos-largo-plazo">
+                                          $0
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                          <b>Total Activos</b>
+                                        </td>
+                                        <td id="total-activos">
+                                          <b>$0</b>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                              <div class="col-md-4 col-sm-12">
+                                <div class="table-overflow">
+                                  <table
+                                    class="table table-lg table-bordered text-dark"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td><b>Pasivos</b></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td><u>Pasivos corto plazo</u></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td>Cuentas por pagar</td>
+                                        <td>
+                                          <input
+                                            type="number"
+                                            class="form-control"
+                                            id="pcp-1"
+                                            onchange="calcular()"
+                                            placeholder="0"
+                                            value="0"
+                                          />
+                                        </td>
+                                      </tr>
+
+                                      <tr>
+                                        <td>Total Pasivos Corto Plazo</td>
+                                        <td id="total-pasivos-corto-plazo">
+                                          $0
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td><u>Pasivos largo plazo</u></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td>Deudas a largo plazo</td>
+                                        <td>
+                                          <input
+                                            type="number"
+                                            class="form-control"
+                                            id="plp-1"
+                                            onchange="calcular()"
+                                            placeholder="0"
+                                            value="0"
+                                          />
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>Total Pasivos a Largo Plazo</td>
+                                        <td id="total-pasivos-largo-plazo">
+                                          $0
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                          <b>Total pasivos</b>
+                                        </td>
+                                        <td id="total-pasivos">
+                                          <b>$0</b>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                              <div class="col-md-4 col-sm-12">
+                                <div class="table-overflow">
+                                  <table
+                                    class="table table-lg table-bordered text-dark"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td><b>Capital</b></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td>Utilidad Pasada</td>
+                                        <td>
+                                          <input
+                                            type="number"
+                                            class="form-control"
+                                            id="cap-1"
+                                            onchange="calcular()"
+                                            placeholder="0"
+                                            value="0"
+                                          />
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>Capital Contable</td>
+                                        <td id="cap-2">$0</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Total Pasivos y Capital</td>
+                                        <td id="cap-3">$0</td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                          <b>Total capital</b>
+                                        </td>
+                                        <td id="total-cap">
+                                          <b>$0</b>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
                             </div>
                           </div>
                         </div>

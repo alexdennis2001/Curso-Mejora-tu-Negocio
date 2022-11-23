@@ -9724,7 +9724,7 @@ a.card:focus {
 .table > thead > tr > td,
 .table > thead > tr > th {
   line-height: 1.8;
-  border-color: #e6ecf5;
+  border-color: black;
 }
 
 .table-sm > tbody > tr > td,
